@@ -1,0 +1,16 @@
+id,fecha,concepto,tipo,sede,frecuencia,proyecto,prioridad,estado,tags,observacion,resultado,duracion_min,energia,tarea_relacionada_id,created_at,updated_at
+T2C3ABA7F2A,2026-03-20,Revisión Normalizaciones,Aplicaciones,CAVyAG,Único,,Media,Hecho,,"No se generan algunos links, asegurar que se suba dos sets de fotos por suministro.",,,,,2026-03-20T08:00:00,2026-03-20T08:00:00
+TA3095249A0,2026-03-20,LecturasV1: Pepe DP,Aplicaciones,EDESTE,No definido,,Media,Hecho,,"Entrar con mail nehueledeste. Luego acceder con CUIL y contraseña ne40. Revisiones que luego envía Carolina. Se carga lecturas, se ocmplementa con Mr.Dims e Insight.",,,,,2026-03-20T08:00:00,2026-03-20T08:00:00
+T6182024AAD,2026-03-20,Actualización ConsumosT2,Administrativo,EDESTE,No definido,,Media,Hecho,,,,,,,2026-03-20T08:00:00,2026-03-20T08:00:00
+TD13F8C3700,2026-03-23,Revisión Normalizaciones,Aplicaciones,CAVyAG,Único,,Media,Hecho,,"Se añade script para extraer Localidad, Departamento y Código Postal del Catastro del Colegio de Agrimensura. No siempre funciona.",,,,,2026-03-23T08:00:00,2026-03-23T08:00:00
+TCE6B828F4B,2026-03-23,Reunión Martín García SumaDrones,Estratégico,NEHUEL,Único,,Media,Hecho,,Pendiente cotizaciones.,,,,,2026-03-23T08:00:00,2026-03-23T08:00:00
+T323E8AC1AB,2026-03-25,Investigación de Drones,Estratégico,NEHUEL,No definido,,Media,Hecho,,Asegurarse que tenga lo necesario. Ideal el básico e incorporarle LiDar.,,,,,2026-03-25T08:00:00,2026-03-25T08:00:00
+TB0A2C9AC34,2026-03-25,Revisión Normalizaciones,Aplicaciones,CAVyAG,Único,,Media,Hecho,,Generar dos suministros por tablero. Añadir Lote del Barrio para identificación más sencilla. Aclarar trabajo pendiente.,,,,,2026-03-25T08:00:00,2026-03-25T08:00:00
+T7154611A60,2026-03-26,Armado PBI Walter Carini TAREAS_NEHUEL&CO.S.A.,Administrativo,CAVyAG,No definido,,Media,Hecho,,Pendiente de hacer procedimiento de actualización.,,,,,2026-03-26T08:00:00,2026-03-26T08:00:00
+T2019F75C81,2026-03-26,Investigación Computadoras,Estratégico,NEHUEL,No definido,,Media,Hecho,,Tarjeta gráfica y memoria para entrenamiento IA y Software Drones,,,,,2026-03-26T08:00:00,2026-03-26T08:00:00
+T11BD15D6B4,2026-03-26,Reunión Corpora,Estratégico,NEHUEL,No definido,,Media,Hecho,,Reunión para definir cómo proceder. Se propone trabajar una consultoría sobre el algoritmo que desarrollé.,,,,,2026-03-26T08:00:00,2026-03-26T08:00:00
+T710DC68241,2026-03-26,Mensaje Juan Ignacio Salazar,Profesional,PERSONAL,No definido,,Media,Hecho,,"El proyecto de ACINDAR parece que avanza, podría trabajar como consultor.",,,,,2026-03-26T08:00:00,2026-03-26T08:00:00
+TA3E39FC781,2026-03-30,Coordinación con Corpora,Estratégico,NEHUEL,No definido,,Media,Hecho,,Seguimiento reunión semana anterior.,,,,,2026-03-30T08:00:00,2026-03-30T08:00:00
+TB92D9A9F75,2026-03-30,Actualización Normalizaciones,Administrativo,CAVyAG,Diario,,Media,Hecho,,,,,,,2026-03-30T08:00:00,2026-03-30T08:00:00
+T71E259C9FB,2026-03-30,Seguimiento Dron MG,Estratégico,NEHUEL,No definido,,Media,Hecho,,Consulta precio pre-compra.,,,,,2026-03-30T08:00:00,2026-03-30T08:00:00
+TFB7C4E2A6E,2026-03-30,Compra Computadora,Estratégico,NEHUEL,No definido,,Media,Hecho,,Transferir,,,,,2026-03-30T08:00:00,2026-03-30T08:00:00
