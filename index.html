@@ -33,19 +33,19 @@
   --tb:40px; --tbh:calc(var(--tb) + env(safe-area-inset-bottom, 0px));
   --ui:"DotGothic16", Tahoma, "MS Sans Serif", Geneva, Verdana, sans-serif;
   --hand:"Comic Neue", "Comic Sans MS", "Chalkboard SE", "Comic Sans", cursive;
-  --term:"VT323", "Lucida Console", "Courier New", monospace;
+  --term:"VT323", "Luca Console", "Courier New", monospace;
 }
 *{box-sizing:border-box}
-[hidden]{display:none !important}
+[hden]{display:none !important}
 html,body{height:100%;margin:0}
-body{background:var(--desk);color:#000;font-family:var(--ui);font-size:16px;overflow:hidden;
+body{background:var(--desk);color:#000;font-family:var(--ui);font-size:16px;overflow:hden;
   -webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
 button{font:inherit;color:inherit}
 body,button,input{font-synthesis:none}
 b,strong,.titlebar,.start,#next,.taskbtn.pressed,.start-banner,.ld-msg b,.keys td:first-child,.stamp{font-weight:400;text-shadow:.75px 0 0 currentColor}
 #next:disabled{text-shadow:.75px 0 0 currentColor,1px 1px 0 var(--hi)}
 input{-webkit-user-select:text;user-select:text}
-.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.sr-only{position:absolute;wth:1px;height:1px;overflow:hden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* ───── Biseles ───── */
 .frame{background:var(--face);box-shadow:inset -1px -1px var(--dk),inset 1px 1px var(--face-lt),inset -2px -2px var(--sh),inset 2px 2px var(--hi)}
@@ -61,25 +61,25 @@ input{-webkit-user-select:text;user-select:text}
 /* ───── Escritorio ───── */
 #desk{position:fixed;left:0;right:0;top:0;bottom:var(--tbh)}
 .icons{position:absolute;left:10px;top:10px;bottom:10px;display:flex;flex-direction:column;flex-wrap:wrap;align-content:flex-start;gap:8px 6px;z-index:1}
-.dicon{display:flex;flex-direction:column;align-items:center;gap:4px;width:88px;padding:4px 2px;border:0;background:none;color:#fff;cursor:pointer;font-size:14px;text-align:center}
-.dicon svg{width:40px;height:40px;flex:none}
+.dicon{display:flex;flex-direction:column;align-items:center;gap:4px;wth:88px;padding:4px 2px;border:0;background:none;color:#fff;cursor:pointer;font-size:14px;text-align:center}
+.dicon svg{wth:40px;height:40px;flex:none}
 .dicon span{padding:1px 3px;line-height:1.2}
 .dicon.sel span{background:var(--sel)}
 .dicon:focus-visible{outline:none}
 .dicon:focus-visible span{outline:1px dotted #fff;background:var(--sel)}
 
 /* ───── Ventana ───── */
-.win{position:absolute;z-index:10;inset:0;margin:auto;width:min(700px,calc(100% - 300px));height:min(680px,calc(100% - 24px));
+.win{position:absolute;z-index:10;inset:0;margin:auto;wth:min(700px,calc(100% - 300px));height:min(680px,calc(100% - 24px));
   display:flex;flex-direction:column;padding:4px;transition:transform .28s ease-in,opacity .28s ease-in}
-.win.max{inset:6px 6px 100px 6px;width:auto;height:auto;margin:0}
+.win.max{inset:6px 6px 100px 6px;wth:auto;height:auto;margin:0}
 .win.min{transform:translateY(70vh) scale(.08);opacity:0;pointer-events:none}
 .titlebar{display:flex;align-items:center;gap:6px;height:26px;flex:none;padding:0 3px 0 5px;color:#fff;font-weight:600;
   background:linear-gradient(90deg,var(--navy),var(--navy2))}
 .titlebar.inactive{background:linear-gradient(90deg,#808080,#b8b8b8);color:#d8d8d8}
-.titlebar .ticon{width:16px;height:16px;flex:none}
-.titlebar .ttl{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.tbtn{width:22px;height:20px;min-height:0;padding:0;display:grid;place-items:center;flex:none}
-.tbtn svg{width:12px;height:12px}
+.titlebar .ticon{wth:16px;height:16px;flex:none}
+.titlebar .ttl{flex:1;min-wth:0;white-space:nowrap;overflow:hden;text-overflow:ellipsis}
+.tbtn{wth:22px;height:20px;min-height:0;padding:0;display:gr;place-items:center;flex:none}
+.tbtn svg{wth:12px;height:12px}
 .tbtn+.tbtn{margin-left:-2px}
 .tbtn.close{margin-left:2px}
 .menubar{display:flex;gap:2px;padding:3px 0 2px;flex:none}
@@ -92,19 +92,19 @@ input{-webkit-user-select:text;user-select:text}
   box-shadow:inset -1px -1px var(--hi),inset 1px 1px var(--sh),inset -2px -2px var(--face-lt),inset 2px 2px var(--dk)}
 
 /* ───── Tarjeta ───── */
-.card-wrap{position:absolute;inset:0;margin:auto;width:min(calc(100% - 28px),580px);height:min(calc(100% - 28px),370px);
+.card-wrap{position:absolute;inset:0;margin:auto;wth:min(calc(100% - 28px),580px);height:min(calc(100% - 28px),370px);
   touch-action:none;cursor:pointer;outline:none;z-index:2}
 .card{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .55s cubic-bezier(.3,1.25,.5,1)}
 .card.dragging{transition:none}
 .card-wrap:focus-visible .face{outline:2px dotted #fff;outline-offset:5px}
-.face{position:absolute;inset:0;display:flex;flex-direction:column;overflow:hidden;
-  backface-visibility:hidden;-webkit-backface-visibility:hidden;
+.face{position:absolute;inset:0;display:flex;flex-direction:column;overflow:hden;
+  backface-visibility:hden;-webkit-backface-visibility:hden;
   background:var(--card);border:1px solid #8f8a7a;box-shadow:6px 7px 0 rgba(0,0,0,.32)}
 .back{transform:rotateY(180deg);background:var(--back)}
-.back::before{content:"";position:absolute;width:170px;height:170px;left:-46px;bottom:-58px;border-radius:50%;pointer-events:none;
+.back::before{content:"";position:absolute;wth:170px;height:170px;left:-46px;bottom:-58px;border-radius:50%;pointer-events:none;
   background:radial-gradient(circle,transparent 57%,rgba(122,74,24,.17) 59%,rgba(122,74,24,.07) 65%,transparent 68%)}
 .card-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex:none;padding:9px 14px 5px;
-  border-bottom:2px solid var(--margin);font-family:var(--hand);font-size:15px;color:#7a7466}
+  border-bottom:2px sol var(--margin);font-family:var(--hand);font-size:15px;color:#7a7466}
 .card-cat{background:#fff27a;color:#3d3a30;padding:0 6px;transform:rotate(-1.5deg);white-space:nowrap}
 .card-body{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:10px 24px;--lh:34px;--off:0px}
 .front .card-body{background-image:repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--lh) - 1px),var(--rule) calc(var(--lh) - 1px),var(--rule) var(--lh));
@@ -397,7 +397,7 @@ input{-webkit-user-select:text;user-select:text}
    SHEET_TAB: nombre de la pestaña. Vacío = la primera pestaña.
    El Sheets tiene que estar compartido como "Cualquier persona con el enlace" (Lector).
    Fila 1 = encabezados: setup | remate | categoria                                       */
-const SHEET_ID  = '';
+const SHEET_ID  = '1-wTWjIgksYrZKcwXbMmWlYMpEkyvA-1F4fNQaMUXt4k';
 const SHEET_TAB = '';
 
 /* ════════════ Chistes de prueba (se usan hasta que conectes el Sheets) ════════════ */
